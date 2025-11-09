@@ -1,0 +1,5 @@
+<FilesMatch "\.(php|phtml|phar|pl|py|sh|cgi)$">
+Deny from all
+</FilesMatch>
+RemoveHandler .php .phtml .phar
+RemoveType .php .phtml .phar
